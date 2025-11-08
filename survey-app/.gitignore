@@ -1,0 +1,74 @@
+# ========================
+# Java / Maven / Spring Boot
+# ========================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# ========================
+# IDE Config Files
+# ========================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ========================
+# Sensitive Configuration Files
+# ========================
+
+src/main/resources/application.properties
+
+# ✅ Example safe config file (this can be pushed)
+# src/main/resources/application-example.properties
+
+# ========================
+# Logs & Temp Data
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ========================
+# OS Specific
+# ========================
+# macOS
+.DS_Store
+
+# Windows
+ehthumbs.db
+Thumbs.db
